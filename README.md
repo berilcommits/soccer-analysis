@@ -7,7 +7,7 @@ Futbolda **"ev sahibi avantajı"**, en yaygın kabul gören olgulardan biridir. 
 
 Ancak konuyla ilgili pek çok soru açıkta kalmaktadır: *Bu avantaj tüm Avrupa liglerinde bilimsel olarak kanıtlanabilir mi, yoksa sadece bir safsata mı? Ev sahibi olarak oynamak; taktiksel veya oyuncu özelliklerini, pas hızını, disiplin cezalarını ve topa sahip olma oranlarını ne ölçüde etkilemektedir?*
 
-Bu proje, descriptive istatistiklerin ötesine geçerek bu soruları yanıtlamayı amaçlamaktadır. Projeyi **[buraya projenin sonunda elde edilen nihai çıktıların/bulguların özetini en son ekleyin]** ile tamamlıyoruz.
+Bu proje, descriptive istatistiklerin ötesine geçerek bu soruları yanıtlamayı amaçlamaktadır. Projeyi **[buraya projenin sonunda elde edilen nihai çıktıların/bulguların özetini en son ekleyebiliriz]** ile tamamlıyoruz.
 
 ---
 
@@ -60,7 +60,7 @@ Bu depo (repository) için planlanan dizin yapısı ve klasör organizasyonu aş
 ## Proje Yol Haritası
 * [x] **Faz 0: Keşif & Prototip** — Python ile ham verinin analizi, temizliği ve ilk baseline (taban) modelin kurulması.
 * [ ] **Faz 1: GitHub Kurulumu** — Versiyon kontrol altyapısının kurulması ve iş birliği standartlarının belirlenmesi.
-* [ ] **Faz 2: BigQuery Entegrasyonu** — Verilerin Google Cloud BigQuery ortamına taşınması ve yüklenmesi.
+* [x] **Faz 2: BigQuery Entegrasyonu** — Verilerin Google Cloud BigQuery ortamına taşınması ve yüklenmesi.
 * [ ] **Faz 3: dbt ile Katmanlı Dönüşüm** — Staging, Business ve Analytics veri ambarı katmanlarının tasarlanması ve oluşturulması.
 * [ ] **Faz 4: KPI Hesaplamaları** — Takım, oyuncu ve lig bazlı analitik metriklerin doğrudan dbt üzerinde modellenmesi.
 * [ ] **Faz 5: 3 ML Modeli** — Tahmin modellerinin eğitilmesi, optimize edilmesi ve kaydedilmesi.
@@ -157,7 +157,7 @@ The planned directory structure and folder organization for this repository is a
 ## Project Roadmap
 * [x] **Phase 0: Discovery & Prototype** — Python analysis, cleaning of raw data, and building the first baseline model.
 * [ ] **Phase 1: GitHub Setup** — Establishing version control infrastructure and defining collaboration standards.
-* [ ] **Phase 2: BigQuery Integration** — Migrating and loading data into the Google Cloud BigQuery environment.
+* [x] **Phase 2: BigQuery Integration** — Migrating and loading data into the Google Cloud BigQuery environment.
 * [ ] **Phase 3: Layered Transformation with dbt** — Designing and building Staging, Business, and Analytics data warehouse layers.
 * [ ] **Phase 4: KPI Calculations** — Modeling team, player, and league-based analytical metrics directly on dbt.
 * [ ] **Phase 5: 3 ML Models** — Training, optimizing, and saving predictive models.
